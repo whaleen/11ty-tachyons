@@ -3,7 +3,7 @@ title: 11ty + Tachyons
 layout: default
 ---
 <section class="mw6 mw7-ns center pa3 ph5-ns">
-  {%- for post in collections.post limit:5 -%}
+  {%- for post in collections.post -%}
     <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="{{ post.url }}">
       <div class="dtc w3">
         <img src="https://placeimg.com/480/480/{{ post.data.image_cat }}" class="db w-100"/>
