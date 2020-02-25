@@ -8,6 +8,8 @@ Get started by deploying **11ty+Tachyons** to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whaleen/11ty-tachyons)
 
+See the [demo](https://11ty-tachyons.netlify.com) of a Netlify deploy. 
+
 ### Clone and develop locally
 
 If you have deployed to Netlify, note any change to the repository name you may have made as the following command will need to be changed to match.
