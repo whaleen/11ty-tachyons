@@ -2,7 +2,7 @@
 
 # 11ty + TACHYONS
 
-## Quickly begin prototyping using 11ty and Tachyons class names.
+## Quickly begin prototyping using 11ty and Tachyons.
 
 Get started by deploying **11ty+Tachyons** to Netlify.
 
