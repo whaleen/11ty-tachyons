@@ -1,7 +1,9 @@
-// Custom styles 
+// Importing tachyons-sass
+@import 'node_modules/tachyons-sass/tachyons.scss';
+
+// Write your custom styles
 
 // Sticky footer
-
 html, body {
   height: 100%;
 }
@@ -15,5 +17,3 @@ body {
 .footer {
   flex-shrink: 0;
 }
-
-//
