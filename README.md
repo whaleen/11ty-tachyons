@@ -1,7 +1,3 @@
----
-permalink: readme/
----
-
 # 11ty + TACHYONS
 
 ## Quickly begin prototyping using Tachyons class names.
