@@ -1,3 +1,7 @@
+---
+permalink: readme/
+---
+
 # 11ty + TACHYONS
 
 Get started now by deploying 11ty + Tachyons to Netlify.
@@ -6,9 +10,7 @@ Get started now by deploying 11ty + Tachyons to Netlify.
 
 ### Note to Jekyll users:
 
-This template may be an ideal introduction to 11ty for you. It is structured in a manner typical to a Jekyll project.
-
-I advise you to read the following article to get up to speed on how the two systems, Jekyll and 11ty, differ. This article will also help you quickly learn how this template is configured and structured: [https://24ways.org/2018/turn-jekyll-up-to-eleventy/](https://24ways.org/2018/turn-jekyll-up-to-eleventy/)
+This template may be an ideal introduction to 11ty for you. It is structured in a manner that is similar to a Jekyll project. I recommend you to read [this article](https://24ways.org/2018/turn-jekyll-up-to-eleventy/) to get up to speed.
 
 
 ### Configuration
