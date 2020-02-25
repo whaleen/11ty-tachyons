@@ -8,7 +8,7 @@ Get started by deploying **11ty+Tachyons** to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whaleen/11ty-tachyons)
 
-See the [demo](https://11ty-tachyons.netlify.com) of a Netlify deploy. 
+See the [demo](https://11ty-tachyons.netlify.com) of a Netlify deploy.
 
 ### Clone and develop locally
 
@@ -20,7 +20,7 @@ If you have deployed to Netlify, note any change to the repository name you may 
 
 ```npm install```
 
-```npx eleventy --serve```
+```npm start```
 
 
 ### Note to Jekyll users:
@@ -35,11 +35,9 @@ This template may be an ideal introduction to 11ty for you. It is structured in 
 
 ### Tachyons
 
-A stylesheet called tachyons.css is placed in the assets folder: ```/assets/css/tachyons.css```
+A Saas distribution of Tachyons can be found in ```/scss/```. Additional CSS can be written in ```/scss/custom.scss```
 
 You may like to [learn about Tachyons](https://tachyons.io).
-
-Introducing Sass or any other CSS related tool is up to you. 11ty does not include such things by default.
 
 
 ### 11ty
