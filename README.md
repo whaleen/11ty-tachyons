@@ -1,8 +1,8 @@
 # 11ty + TACHYONS
 
-Get started now by **[deploying 11ty + Tachyons to Netlify.][deploy-to-netlify]**
+Get started now by deploying 11ty + Tachyons to Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whaleen/11ty-tachyons)
 
 ### Note to Jekyll users:
 
