@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c47c39a6-872d-42d1-9d76-44d46dec26d2/deploy-status)](https://app.netlify.com/sites/jolly-mayer-d0a644/deploys)
+
 # 11ty + TACHYONS
 
-## Quickly begin prototyping using Tachyons class names.
+## Quickly begin prototyping using 11ty and Tachyons class names.
 
 Get started by deploying **11ty+Tachyons** to Netlify.
 
