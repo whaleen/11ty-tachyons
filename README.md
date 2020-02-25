@@ -31,6 +31,8 @@ A stylesheet called tachyons.css is placed in the assets folder: ```/assets/css/
 
 You may like to [learn about Tachyons](https://tachyons.io).
 
+Introucing Sass or any other CSS related tool is up to you. 11ty does not include such things by default.
+
 
 ### 11ty
 
