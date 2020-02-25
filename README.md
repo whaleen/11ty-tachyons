@@ -8,6 +8,7 @@ Get started by deploying **11ty+Tachyons** to Netlify.
 
 ### Clone and develop locally
 
+If you have deployed to Netlify, note any change to the repository name you may have made as the following command will need to be changed to match.
 
 ```git clone https://github.com/whaleen/11ty-tachyons my-site-name```
 
