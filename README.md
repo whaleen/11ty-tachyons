@@ -4,9 +4,16 @@ permalink: readme/
 
 # 11ty + TACHYONS
 
-Get started now by deploying *11ty+Tachyons* to Netlify.
+## Quickly begin prototyping using Tachyons class names.
+
+Get started by deploying **11ty+Tachyons** to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whaleen/11ty-tachyons)
+
+
+
+
+
 
 ### Note to Jekyll users:
 
@@ -15,15 +22,14 @@ This template may be an ideal introduction to 11ty for you. It is structured in 
 
 ### Make It Your Own
 
-Edit ```/_data/site.json``` which contains things such as the site name, author, Google Analytics ID, etc...
+1. Edit ```/_data/site.json``` which contains things such as the site name, author, Google Analytics ID, etc...
+2. Go wild with Tachyons
 
 ### Tachyons
 
-You can begin prototyping immediately using Tachyons class names.
-
 A stylesheet called tachyons.css is placed in the assets folder: ```/assets/css/tachyons.css```
 
-Please [learn about Tachyons](https://tachyons.io).
+You may like to [learn about Tachyons](https://tachyons.io).
 
 
 ### 11ty
