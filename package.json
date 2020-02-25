@@ -4,7 +4,7 @@
   "description": "Eleventy Starter with Tachyons for styling",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --style=compressed scss/tachyons.scss css/tachyons.css",
+    "sass": "sass --style=compressed tachyons.scss css/tachyons.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
@@ -19,6 +19,7 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "sass": "^1.26.0"
+    "sass": "^1.26.0",
+    "tachyons-sass": "^4.9.5"
   }
 }
