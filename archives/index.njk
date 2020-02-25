@@ -1,0 +1,24 @@
+---
+layout: default
+pagination:
+  data: collections.post
+  size: 5
+  alias: posts
+---
+
+<section>
+  <ol>
+{% for post in posts %}
+  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ol>
+</section>
+
+
+<nav aria-labelledby="my-pagination">
+  <ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>

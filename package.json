@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-tachyons",
+  "version": "1.0.0",
+  "description": "Eleventy Starter with Tachyons for styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joshua Vaage",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "tachyons": "^4.10.0"
+  }
+}
