@@ -4,7 +4,7 @@ permalink: readme/
 
 # 11ty + TACHYONS
 
-Get started now by deploying 11ty + Tachyons to Netlify.
+Get started now by deploying *11ty+Tachyons* to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whaleen/11ty-tachyons)
 
@@ -28,4 +28,4 @@ Please [learn about Tachyons](https://tachyons.io).
 
 ### 11ty
 
-A very nice Static Site Generator. 
+A very nice Static Site Generator.
