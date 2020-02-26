@@ -1,8 +1,10 @@
+// 11ty Config
 module.exports = function(eleventyConfig) {
 
-  // Copy the `assets` directory to the compiled site folder
+  // Tell 11ty to build these in the output folder '_site'
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.addPassthroughCopy('css');
+
   // Tell 11ty to ignore the .gitignore
   eleventyConfig.setUseGitIgnore('false');
 

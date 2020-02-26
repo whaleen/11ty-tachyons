@@ -1,8 +1,9 @@
 ---
-tags: post
+tags: ['post']
 title: An Essay About Design
-layout: post
+layout: layouts/post
 image_cat: animals
+excerpt: I'm tired of saying I want a medium coffee. Everyone wants a medium coffee.
 ---
 
 <blockquote>

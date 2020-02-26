@@ -35,7 +35,7 @@ This template may be an ideal introduction to 11ty for you. It is structured in 
 
 ### Tachyons
 
-A Saas distribution of Tachyons can be found in ```/scss/```. Additional CSS can be written in ```/scss/custom.scss```
+A Saas distribution of Tachyons can be found in ```/scss/```. Additional CSS can be written in ```/scss/custom.scss``` for convenience. 
 
 You may like to [learn about Tachyons](https://tachyons.io).
 

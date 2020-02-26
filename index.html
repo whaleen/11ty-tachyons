@@ -1,0 +1,53 @@
+---
+title: 11ty + Tachyons
+layout: layouts/default.html
+---
+
+<section class="mw6 mw7-ns center pa3 ph5-ns">
+  <h1 class="">Posts</h1>
+  {%- for post in collections.post limit:1 -%}
+    <a class="link dt w-100 bb b--black-10 pb2 mt2 dim" href="{{ post.url }}">
+      <div class="dtc w4">
+        <img src="https://placeimg.com/480/480/{{ post.data.image_cat }}" class="db w-100 br3"/>
+      </div>
+      <div class="dtc v-top pl4">
+        <h1 class="f3 f2-ns fw6 lh-title black mv0">{{ post.data.title }}</h1>
+        <h2 class="f6 fw4 mt2 mb0 black-60">
+          <img class="br-100 w2  dib v-mid" src="{{ site.author.avatar }}" />
+          <span class="fw1 black">&nbsp; {{ site.author.name }}</span>
+        </h2>
+        <p class="gray">
+          {{ post.data.excerpt }}
+        </p>
+      </div>
+    </a>
+    {%- endfor -%}
+</section>
+
+
+<section class="mw6 mw7-ns center pa3 ph5-ns">
+  {%- for post in collections.post limit:4 offset:1 -%}
+    <a class="link dt w-100 bb b--black-10 pb2 mt2 dim" href="{{ post.url }}">
+      <div class="dtc w3">
+        <img src="https://placeimg.com/480/480/{{ post.data.image_cat }}" class="db w-100 br3"/>
+      </div>
+      <div class="dtc v-top pl4">
+        <h1 class="f5 f4-ns fw6 lh-title black mv0">{{ post.data.title }}</h1>
+        <p class="gray">
+          {{ post.data.excerpt }}
+        </p>
+      </div>
+    </a>
+    {%- endfor -%}
+</section>
+
+
+<section class="mw6 mw7-ns center pa3 ph5-ns">
+<div class="bg-white red pa2 lh-copy fw1 courier">
+  <ol>
+    <li>Edit the <code>_data/site.json</code> with your site's information.</li>
+    <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
+    <li>Delete this message from <code>index.html</code>.</li>
+  </ol>
+</div>
+</section>
