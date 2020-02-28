@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
 
   // Tell 11ty to build these in the output folder '_site'
   eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('css');
 
   // Tell 11ty to ignore the .gitignore
